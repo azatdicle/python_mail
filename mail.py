@@ -18,4 +18,5 @@ if response.lower() == "y":
 check_mail = input("Please enter an email address to check: ")
 if check_mail == mailcreate(nickname, mail):
     print("This email address is already in use.")
-    print("Your email address has been created.")
+else:
+     print("Your email address has been created.")
